@@ -1,4 +1,5 @@
 import { FaYoutube, FaFacebook } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import {
   RxDiscordLogo,
   RxGithubLogo,
@@ -7,96 +8,96 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
-export const SKILL_DATA = [
-  {
-    skill_name: "HTML",
-    image: "html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "CSS",
-    image: "css.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
+//-- export const SKILL_DATA = [
+ // {
+    //skill_name: "HTML",
+   // image: "html.png",
+    //width: 80,
+   // height: 80,
+  //},
+ // {
+ //   skill_name: "CSS",
+ //   image: "css.png",
+ //   width: 80,
+ //   height: 80,
+ // },
+ // {
+  //  skill_name: "JavaScript",
+  //  image: "js.png",
+  //  width: 65,
+ ///   height: 65,
+ // },
+ // {
+  //  skill_name: "Tailwind CSS",
+  //  image: "tailwind.png",
+ //   width: 80,
+ //   height: 80,
+ // },
+ // {
+ //   skill_name: "React",
+ //   image: "react.png",
+ //   width: 80,
+ //   height: 80,
+ // },
+ // {
+ //   skill_name: "Redux",
+ //   image: "redux.png",
+ //   width: 80,
+ //   height: 80,
+ // },
 
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Framer Motion",
-    image: "framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Stripe",
-    image: "stripe.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Node.js",
-    image: "node.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
-  },
-] as const;
+//  {
+//    skill_name: "TypeScript",
+    //image: "ts.png",
+    //width: 80,
+   // height: 80,
+  //},
+ // {
+    //skill_name: "Next.js 14",
+   // image: "next.png",
+ //   width: 80,
+ //   height: 80,
+ // },
+ // {
+//    skill_name: "Framer Motion",
+//    image: "framer.png",
+//    width: 80,
+//    height: 80,
+//  },
+//  {
+//    skill_name: "Stripe",
+//    image: "stripe.png",
+//    width: 80,
+   // height: 80,
+  //},
+ // {
+    //skill_name: "Node.js",
+    //image: "node.png",
+    //width: 80,
+    //height: 80,
+  //},
+ // {
+    //skill_name: "MongoDB",
+    //image: "mongodb.png",
+    //width: 40,
+    //height: 40,
+  //},
+//] as const; 
 
 export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/dence_baylor/",
   },
   {
     name: "Facebook",
     icon: FaFacebook,
-    link: "https://facebook.com",
+    link: "https://www.facebook.com/dencebaylor.agudong",
   },
   {
     name: "Twitter",
-    icon: RxTwitterLogo,
+    icon: FaXTwitter,
     link: "https://twitter.com",
   },
 ] as const;
@@ -134,13 +135,6 @@ export const FRONTEND_SKILL = [
     height: 80,
   },
 
-
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
-    width: 80,
-    height: 80,
-  },
 ] as const;
 
 export const BACKEND_SKILL = [
@@ -157,12 +151,18 @@ export const BACKEND_SKILL = [
     height: 80,
   },
   {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
+    skill_name: "xampp",
+    image: "xampp.png",
+    width: 80,
+    height: 80,
   },
 
+  {
+    skill_name: "MySql",
+    image: "mysql.png",
+    width: 80,
+    height: 80,
+  },
 
 ] as const;
 
@@ -171,26 +171,33 @@ export const FULLSTACK_SKILL = [
 
 export const OTHER_SKILL = [
 
+    {
+    skill_name: "firebase",
+    image: "firebase.png",
+    width: 40,
+    height: 40,
+  },
+
 ] as const;
 
 export const PROJECTS = [
   {
-    title: "🛒 Tekisky Mart – The Future of eCommerce",
+    title: "BOOKSYNC – Library Inventory Management System",
     
     image: "/projects/project-1.webp",
-    link: "https://tekiskymart.com/",
+    link: "",
   },
   {
-    title: "Tekisky – The Future of Tech",
+    title: "Baldaen Dental Clinic – Appointment and Inventory Management App",
 
     image: "/projects/project-2.webp",
-    link: "https://tekisky.com/",
+    link: "",
   },
   {
-    title: "Speedline Auto Parts – The Future of Auto Parts",
+    title: " Taskly – Personal Task & Note Tracking Application",
    
     image: "/projects/project-3.webp",
-    link: "https://speedlineautoparts.netlify.app/",
+    link: "",
   },
 ] as const;
 
