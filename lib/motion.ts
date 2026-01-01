@@ -10,7 +10,7 @@ export function slideInFromLeft(delay: number) {
       },
     },
   };
-}
+} 
 
 export function slideInFromRight(delay: number) {
   return {

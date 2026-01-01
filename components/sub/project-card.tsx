@@ -13,7 +13,7 @@ export const ProjectCard = ({
   link,
 }: ProjectCardProps) => {
   return (
-    <Link
+    <Link 
       href={link}
       target="_blank"
       rel="noreferrer noopener"

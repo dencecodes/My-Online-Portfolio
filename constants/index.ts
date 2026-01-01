@@ -202,37 +202,37 @@ export const PROJECTS = [
 ] as const;
 
 export const FOOTER_DATA = [
-  {
-    title: "Community",
-    data: [
 
-      {
-        name: "GitHub",
-        icon: RxGithubLogo,
-        link: "https://github.com",
-      },
-
-    ],
-  },
   {
     title: "Social Media",
     data: [
-
+      
       {
-        name: "Linkedin",
-        icon: RxLinkedinLogo,
-        link: "https://www.linkedin.com/in/abdul-raheman-389597281/",
+        name: "Instagram",
+        icon: RxInstagramLogo,
+        link: "https://www.instagram.com/dence_baylor/",
+      },
+      {
+        name: "Facebook",
+        icon: FaFacebook,
+        link: "https://www.facebook.com/dencebaylor.agudong",
+      },
+      {
+        name: "Twitter",
+        icon: FaXTwitter,
+        link: "https://twitter.com",
       },
     ],
   },
   {
+    
     title: "About",
     data: [
    
       {
         name: "Contact Me",
         icon: null,
-        link: "mailto:arrahmanofficial9@gmail.com",
+        link: "mailto:dencebayloragudong212002@gmail.com",
       },
     ],
   },

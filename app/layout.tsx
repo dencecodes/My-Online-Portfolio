@@ -6,7 +6,7 @@ import { Footer } from "@/components/main/footer";
 import { Navbar } from "@/components/main/navbar";
 import { StarsCanvas } from "@/components/main/star-background";
 import { siteConfig } from "@/config";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils"; 
 
 import "./globals.css";
 

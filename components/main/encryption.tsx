@@ -10,7 +10,7 @@ import { useEffect, useState } from "react";
 
 export const Encryption = () => {
   const securityItems = [
-    "Authentication & Authorization",
+    "Authentication & Authorization", 
     "Secure API Design",
     "ACL Configuration (Cisco Routers)",
     "VLAN Segmentation & Network Isolation",

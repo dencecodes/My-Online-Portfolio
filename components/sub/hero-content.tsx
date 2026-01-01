@@ -9,7 +9,7 @@ export const HeroContent = () => {
   return (
     <motion.div
       initial="hidden"
-      animate="visible"
+      animate="visible" 
       className="flex flex-col-reverse md:flex-row items-center justify-center px-6 md:px-20 mt-16 md:mt-40 w-full z-[20]"
     >
       {/* Left Content */}
@@ -23,7 +23,7 @@ export const HeroContent = () => {
       className="flex items-center gap-2 py-[6px] px-[8px] border border-[#7042f88b] opacity-[0.9] rounded-lg"
     >
       <SparklesIcon className="text-[#b49bff] h-4 w-4 md:h-5 md:w-5" />
-      <h1 className="text-[12px] md:text-[13px] text-gray-200 font-semibold">
+      <h1 className="text-[12px] md:text-[13px] text-gray-200 font-semibold ">
         Full Stack Developer
       </h1>
     </motion.div>
@@ -95,19 +95,26 @@ export const HeroContent = () => {
       </div>
 
       {/* Right Side Image */}
-      <motion.div
-        variants={slideInFromRight(0.8)}
-        className="w-full flex justify-center items-center mt-8 md:mt-0"
-      >
-        <Image
-          src="/hero-bg.png"
-          alt="work icons"
-          height={500}
-          width={500}
-          draggable={false}
-          className="select-none drop-shadow-lg sm:h-[450px] sm:w-[450px] md:h-[500px] md:w-[500px]"
-        />
-      </motion.div>
+        <motion.div
+          variants={slideInFromRight(0.8)}
+          className="w-full flex justify-center items-center mt-8 md:mt-0"
+        >
+          <div className="relative flex justify-center">
+  <div className="absolute w-[320px] h-[500px] 
+  bg-gradient-to-r from-purple-500 to-cyan-400 
+  rounded-full blur-3xl opacity-40" />
+
+          <Image
+            src="/hero-bg.png"
+            alt="work icons"
+            height={500}
+            width={500}
+            draggable={false}
+            className="select-none drop-shadow-lg sm:h-[450px] sm:w-[450px] md:h-[500px] md:w-[500px]"
+          />
+
+          </div>
+        </motion.div>
     </motion.div>
   );
 };
