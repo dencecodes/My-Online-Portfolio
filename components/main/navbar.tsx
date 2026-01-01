@@ -1,4 +1,4 @@
-
+'use client';
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -28,7 +28,8 @@ export const Navbar = () => {
             className="cursor-pointer"
           />
           <span className="hidden sm:block text-white font-bold tracking-wide">
-            I&apos;m Dence
+           {"I'm Dence"}
+
           </span>
         </Link>
 
