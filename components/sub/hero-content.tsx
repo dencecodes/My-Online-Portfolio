@@ -99,7 +99,7 @@ export const HeroContent = () => {
           variants={slideInFromRight(0.8)}
           className="w-full flex justify-center items-center mt-8 md:mt-0"
         >
-          <div className="relative flex justify-center">
+          <div className="relative flexI&apos;m justify-center">
   <div className="absolute w-[320px] h-[500px] 
   bg-gradient-to-r from-purple-500 to-cyan-400 
   rounded-full blur-3xl opacity-40" />
